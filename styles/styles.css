@@ -8,8 +8,8 @@
 }
 
 :root{
-    --cor-primaria: #000000;
-    --cor-secundaria: #F6F6F6;
+    --cor-primaria: #F5F5DC;
+    --cor-secundaria: #4C4C4C;
     --cor-terciaria: #87c159;
 
     --fonte-principal:"Krona One", sans-serif;
@@ -20,6 +20,8 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color:var(--cor-secundaria);
+    margin-top: 40px;
+    overflow-x: hidden;
 }
 
 .cabecalho{
@@ -55,7 +57,7 @@ body {
 }
 
 .titulo{
-    font-size:2.25rem;
+    font-size:1.8rem;
     font-family: var(--fonte-principal);
 }
 
@@ -109,19 +111,21 @@ i{
 
 .imagem{
     margin-left: 8%;
-    width:50%;
+    width:40%;
 }
 
 .rodape{
     background-color:var(--cor-terciaria);
     color: var(--cor-secundaria);
-    padding: 13px;
+    padding: 14px;
     justify-content: center;
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight:400;
-    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 @media (max-width: 1200px){
